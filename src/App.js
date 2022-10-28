@@ -21,7 +21,7 @@ function App() {
       setCep(response.data);
       setInput("");
     } catch {
-      alert("Opss erro ao buscar");
+      alert("Ops erro ao buscar");
       setInput("");
     }
   }
